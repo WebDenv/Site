@@ -1,7 +1,10 @@
 body{
-  a:hover {
-  text-decoration: none;
-  outline: none;
+ a:hover,
+a:focus {
+  border-bottom: 1px solid #d90000;
+  outline : none;
 }
-background-color:#DFE2DB;
+a:active {
+  color: white;
+  background-color: #d90000;
 }
